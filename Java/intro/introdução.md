@@ -10,7 +10,7 @@ Processing é uma linguagem baseada em **Java**, desenvolvida em 2001  no **Inst
 
 
 ## Hello World!
-Para entendermos um pouco como funciona o processing, vamos executar esse ***[programa](https://github.com/Evaldo-comp/Processing/blob/master/Java/intro/helloworld/helloworld.pdehttp:// "programa") ***que é o equivalente ao nosso Hello World de cada dia.
+Para entendermos um pouco como funciona o processing, vamos executar esse ***[programa](https://github.com/Evaldo-comp/Processing/blob/master/Java/intro/helloworld/helloworld.pde "programa") ***que é o equivalente ao nosso Hello World de cada dia.
 
 No programa Hello World podemos notar 3 funções, *setup(  )*, *draw(  )* e *line(  )*, veremos com mais detalhes todas essa funções mais adiante, mas queria focar principalmente em duas delas: *setup(  )* e *draw(  )*. Em odo programa escrito em processing , você irá encontrar estas duas funções.
 A função **setup(  )** inicializa o programa, é nela que vai o tamanho da tela, variáveis globais, e etc.
@@ -25,7 +25,7 @@ A função **draw(  )** é o passo a passo, é a execução do código, tudo que
 
 ## Provando a execução constante da função draw(  ):
 Para entender como a função draw(  ) está em constante execução, utilize a função **frameRate(  )** para imprimir na tela a velocidade de frames que são executados por segundo. Por padrão o pŕocessing executa a função draw(  ) **60 vezes por segundo**, mas este valor pode ser modificado através da função frameRate(  ). 
-Este ***[programa](https://github.com/Evaldo-comp/Processing/blob/master/Java/intro/frameRate/frameRate.pdehttp:// "programa")*** mostra no terminal quantos a velocidade em que os frames são executados
+Este ***[programa](https://github.com/Evaldo-comp/Processing/blob/master/Java/intro/frameRate/frameRate.pde "programa")*** mostra no terminal quantos a velocidade em que os frames são executados
 :fa-bell-o: OBS: Um programa em processing pode ser executado sem a função draw() mas não sem a função setup(  )
 
 
