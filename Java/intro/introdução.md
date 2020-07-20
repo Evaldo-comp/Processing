@@ -47,4 +47,4 @@ Assim como a língua portuguesa, as linguagens de programação possuem regras d
 
 ## De volta ao ensino médio. Lembra do plano cartesiano?
 A tela no processing é medida em pixels, quando executamos size(300, 300), estamos dizendo que queremos uma janela de 300 pixels de largura por 300 pixels de altura. cada cada pixel dentro dessa tela corresponde a uma coordenada que pode ser no eixo horizontal x ou vertical y. O ponto inicial desta coordenada fica no canto superior esquerdo, o eixo horizontal cresce para a direita e o vertical cresce para baixo, isso mesmo, o eixo y no processing cresce para baixo.
-![ScreenShot](https://{https://imgur.com/gallery/xTTzWsF})
+![ScreenShot](https://{imgur.com/gallery/xTTzWsF})
