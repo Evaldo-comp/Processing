@@ -1,4 +1,4 @@
-### SOBRE PROCESSING:
+###  :coffee:SOBRE PROCESSING:
 
 ## O que é? 
 Processing é uma linguagem baseada em **Java**, desenvolvida em 2001  no **Instituto de Tecnologia de Massachusetts (MIT)**, por Casey Reas e Ben Fry, quando estudavam com John Maeda em um grupo de pesquisa sobre estética e computação. O processing com sua sintaxe simplificada permitiu que designers e engenheiros pudessem se aventurar na criação de gráficos e animações. O processing é gratuito e opensource, ou seja, você pode juntamente com a comunidade sugerir melhoras e ajudar na correção de erros.
