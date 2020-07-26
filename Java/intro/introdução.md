@@ -25,8 +25,8 @@ A função **draw(  )** é o passo a passo, é a execução do código, tudo que
 
 ## Provando a execução constante da função draw(  ):
 Para entender como a função draw(  ) está em constante execução, utilize a função **frameRate(  )** para imprimir na tela a velocidade de frames que são executados por segundo. Por padrão o pŕocessing executa a função draw(  ) **60 vezes por segundo**, mas este valor pode ser modificado através da função frameRate(  ). 
-Este ***[programa](https://github.com/Evaldo-comp/Processing/blob/master/Java/intro/frameRate/frameRate.pde "programa")*** mostra no terminal quantos a velocidade em que os frames são executados
-:fa-bell-o: OBS: Um programa em processing pode ser executado sem a função draw() mas não sem a função setup(  )
+Este ***[programa](https://github.com/Evaldo-comp/Processing/blob/master/Java/intro/frameRate/frameRate.pde "programa")*** mostra no terminal qual a velocidade em que os frames são executados<br>
+OBS: Um programa em processing pode ser executado sem a função draw() mas não sem a função setup(  )
 
 
 ------------
