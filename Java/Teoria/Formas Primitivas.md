@@ -80,6 +80,30 @@ void draw(){
 ![Quadrilátero](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/quadrilatero/quad.png)
 
 
+______
+
+
+#### Retângulo:
+Recebe quatro parâmetros, onde os dois primeiros são as coordenadas do canto superior direito do retângulo e os dois últimos são referentes a largura e altura, respectivamente.
+rect(x, y, width, height);
+
+***Código***
+```Java
+ void setup(){
+  size(300, 300);
+}
+
+void draw(){
+  rect(80, 80, width/2, height/2);
+  
+}
+```
+***Tela:***<br>
+![Retângulo](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/rect/Rect.png)
+
+
+
+
 
 
 
