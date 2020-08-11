@@ -1,9 +1,10 @@
 //Desenhando um quadrilatero
 
 void setup(){
-  size(300, 300);
+  size(200, 200);
 }
 
 void draw(){
-  quad(30, 30, 20, 60, 90, 100, 120, 20);
+  quad(50, 50, 40, 80, 110, 120, 140, 40);
+  
 }
