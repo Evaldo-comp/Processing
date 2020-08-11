@@ -4,5 +4,6 @@ void setup(){
 }
 
 void draw(){
-  rect(100, 100, width/2, height/2);
+  rect(80, 80, width/2, height/2);
+  
 }
