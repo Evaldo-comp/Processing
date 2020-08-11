@@ -6,4 +6,5 @@ void setup(){
 
 void draw(){
   point(30, 10);//define a localização onde o ponto será desenhado
+  save("point.png");
 }

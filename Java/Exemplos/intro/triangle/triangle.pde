@@ -1,8 +1,9 @@
 //Desenhando um triangulo
 void setup(){
-  size(400, 400);
+  size(200, 200);
 }
 
 void draw(){
-  triangle(200, 0, width, height/2, 0, height/2);
+  triangle(100, 0, width, height/2, 0, height/2);
+  save("triangulo.png");
 }
