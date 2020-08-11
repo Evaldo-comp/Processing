@@ -1,9 +1,10 @@
 //Desenhando um retangulo
 void setup(){
-  size(300, 300);
+  size(200, 200);
 }
 
 void draw(){
-  rect(80, 80, width/2, height/2);
+  rect(50, 50, width/2, height/2);
+ 
   
 }
