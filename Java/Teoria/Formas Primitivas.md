@@ -72,12 +72,12 @@ quad(x1, y1, x2, y2, x3, y3, x4, y4)
 }
 
 void draw(){
-  triangle(100, 0, width, height/2, 0, height/2);
+  quad(50, 50, 40, 80, 110, 120, 140, 40);
   
 }
 ```
 ***Tela:***<br>
-![Triângulo](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/quadrilatero/quad.png)
+![Quadrilátero](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/quadrilatero/quad.png)
 
 
 
