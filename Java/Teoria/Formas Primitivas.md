@@ -10,7 +10,7 @@ Desenha um ponto na tela, esse ponto ocupa especificamente um pixel, nas coorden
 ```Java
 point(x, y) // Necessita de dois parâmetros: o x coordenada horizontal e y a coordenada vertical 
 ```
-Tela:
+Tela:<br>
 ![Ponto](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/ponto/point.png)
 
 
