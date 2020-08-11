@@ -102,6 +102,36 @@ void draw(){
 ![Retângulo](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/rect/rect.png)
 
 
+______
+
+
+#### Ellipse:
+Uma ellipse necessita de quatro parâmetros, os dois primeiros determinam a localização do centro da elipse e os dois últimos são referentes a largura e altura respectivamente.
+ellipse(x, y, width, height);
+
+***Código***
+```Java
+ void setup(){
+  size(200, 200);
+}
+
+void draw(){
+  ellipse(100, 100, 100, 100);
+  
+}
+```
+***Tela:***<br>
+![Ellipse](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/ellipse/ellipse.png)
+
+
+______
+:house:[HOME](https://github.com/Evaldo-comp/Processing)
+
+
+
+
+
+
 
 
 
