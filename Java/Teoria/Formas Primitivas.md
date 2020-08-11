@@ -61,6 +61,23 @@ void draw(){
 ______
 
 
+#### Quadrilátero
+Segue a mesma lógica do triângulo, devemos apenas acrescentar mais um par de coordenadas para gerar o quarto ângulo.
+quad(x1, y1, x2, y2, x3, y3, x4, y4)
+
+***Código***
+```Java
+ void setup(){
+  size(200, 200);
+}
+
+void draw(){
+  quad(50, 50, 40, 80, 110, 120, 140, 40);
+  
+}
+```
+***Tela:***<br>
+![Quadrilátero](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/quadrilatero/quad.png)
 
 
 
@@ -68,6 +85,11 @@ ______
 
 
 
-------------
+
+
+
+
+
+
 
 
