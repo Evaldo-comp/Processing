@@ -1,15 +1,15 @@
 void setup(){
-  size(100, 100);
+  size(200, 200);
 }
 
 void draw(){
   smooth();
   strokeWeight(12);
   strokeCap(ROUND);
-  line(20, 30, 80, 30);
+  line(20, 30, 180, 30);
   strokeCap(SQUARE);
-  line(20, 50, 80, 50);
+  line(20, 70, 180, 70);
   strokeCap(PROJECT);
-  line(20, 70, 80, 70);
+  line(20, 110, 180, 110);
   save("strokeCAP.png");
 }
