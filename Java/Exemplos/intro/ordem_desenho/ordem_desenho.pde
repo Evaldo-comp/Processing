@@ -13,4 +13,5 @@ void draw(){
   rect(150, 150, 100, 100);// Desenhado primeiro que a ellipse fica por trás da mesma
   ellipse(160, 160, 90, 90); // Fica a frente do retângulo
   line(30,height,  width, 30); // Última linha, acima de todas as formas anteriores
+  save("ordem.png");
 }
