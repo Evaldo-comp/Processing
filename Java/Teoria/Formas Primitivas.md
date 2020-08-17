@@ -123,6 +123,30 @@ void draw(){
 ***Tela:***<br>
 ![Ellipse](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/ellipse/ellipse.png)
 
+#### Ordem de apresetação
+A ordem na qual as formas são apresentadas depende de quem é desenhada primeiro no código, a forma que for declarada primeiro ficará abaixo das que forem declaradas na sequência, ou seja abaixo dela no código,  a primeira imagem a ser declarada ficará por trás das outras quando for mostrada na tela. Confuso? Não é pra ser, eu que devo ter me expressado mal :smile:
+
+***Código***
+```Java
+ void setup(){
+  size(400, 400);
+}
+
+void draw(){
+  line(0,height,  width, 0); // Primeira linha, abaixo de todas as formas posteriores
+  rect(150, 150, 100, 100);// Desenhado primeiro que a ellipse fica por trás da mesma
+  ellipse(160, 160, 90, 90); // Fica a frente do retângulo
+  line(30,height,  width, 30); // Última linha, acima de todas as formas anteriores
+}
+
+```
+***Tela:***<br>
+![Ordem](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/ordem_desenho/ordem.png)
+
+
+
+
+
 
 ______
 :house:[HOME](https://github.com/Evaldo-comp/Processing)
