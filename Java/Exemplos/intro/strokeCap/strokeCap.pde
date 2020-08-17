@@ -11,5 +11,5 @@ void draw(){
   line(20, 70, 180, 70);
   strokeCap(PROJECT);
   line(20, 110, 180, 110);
-  save("strokeCAP.png");
+  
 }

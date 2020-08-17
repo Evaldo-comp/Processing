@@ -9,6 +9,4 @@ void draw(){
   line(50, 40, 150, 40);
   strokeWeight(18);
   line(50, 70, 150, 70);
- 
- 
 }
