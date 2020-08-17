@@ -27,5 +27,6 @@ void draw(){
 ```
 
 ***Tela***
+
 ![preenchimento](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/preenchimento/preenchimento.png)
 
