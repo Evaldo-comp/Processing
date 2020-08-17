@@ -1,5 +1,5 @@
 void setup(){
-  size(100, 100);
+  size(200, 200);
 
 }
 
@@ -8,12 +8,12 @@ void draw(){
   noStroke();
   ellipseMode(RADIUS);
   fill(126);
-  ellipse(33, 33, 60, 60);
+  ellipse(50, 50, 100, 100);
   fill(255);
   ellipseMode(CORNER);
-  ellipse(33, 33, 60, 60);
+  ellipse(50, 50, 100, 100);
   fill(0);
   ellipseMode(CORNERS);
-  ellipse(33, 33, 60, 60);
-  save("ellipseMode.png");
+  ellipse(50, 50, 100, 100);
+  
 }
