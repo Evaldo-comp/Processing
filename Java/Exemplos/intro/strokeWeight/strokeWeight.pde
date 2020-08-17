@@ -1,14 +1,14 @@
 void setup(){
-  size(100, 100);
+  size(200, 200);
 }
 
 void draw(){
   smooth();
-  line(20, 20, 80, 20);
+  line(50, 20, 150, 20);
   strokeWeight(6);
-  line(20, 40, 80, 40);
+  line(50, 40, 150, 40);
   strokeWeight(18);
-  line(20, 70, 80, 70);
-  save("expessura.png");
+  line(50, 70, 150, 70);
+ 
  
 }
