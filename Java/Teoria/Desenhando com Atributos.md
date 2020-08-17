@@ -3,8 +3,7 @@
 Antes de falarmos dos atributos que podems er utilizados na construção das formas, primeiramente vamos conhcer algumas funções que manipulam cores dentro de um desenho no Processing.
 
 ### fill():
-Essa função determina o preenchimento da forma, como parâmetro podemos incluir números referentes ao esquema de cores RGB,valores dentro de um range de 0 a 255. Não é obrigatório 
-ainserção dos três parâmetros, podemos incluir apenas um tipo, como pode ser observado no exemplo que segue.
+Essa função determina o preenchimento da forma, como parâmetro podemos incluir números referentes ao esquema de cores RGB,valores dentro de um range de 0 a 255. Não é obrigatório a inserção dos três parâmetros, podemos incluir apenas um tipo, como pode ser observado no exemplo que segue. Caso não queira preenchimento algum no seu desenho basta chamar a função ```noFill()```.
 
 ***Exemplo.***
 ```java
@@ -34,7 +33,7 @@ ______
 
 
 #### stroke()
-Essa função define a cor da borda da forma, caso não seja passado nenhum valor como parâmetro a cor padrão setada pelo processing será preta, e se voê não quizer que forma não tenha borda basta chmar a função ```noStroke()```.
+Essa função define a cor da borda da forma, caso não seja passado nenhum valor como parâmetro a cor padrão setada pelo processing será preta, e se você não quizer que a forma possua borda, basta chamar a função ```noStroke()```.
 
 ***Exemplo.***
 ```java
