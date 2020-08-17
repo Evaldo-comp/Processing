@@ -142,6 +142,7 @@ void draw(){
   ```
   
   ***Tela:***
+  
   ![Join](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/strokeJoin/strokeJoin.png)
   
   
