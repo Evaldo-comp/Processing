@@ -59,6 +59,31 @@ void draw(){
 ______
 
 
+#### strokeWeight()
+Através de um atributo númerico determina a espessura da linha
+
+***Exemplo:***
+```java
+void setup(){
+  size(200, 200);
+}
+
+void draw(){
+  smooth();
+  line(50, 20, 150, 20);
+  strokeWeight(6);
+  line(50, 40, 150, 40);
+  strokeWeight(18);
+  line(50, 70, 150, 70);
+}
+```
+***Tela:***
+
+![Expessura](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/strokeWeight/expessura.png)
+
+______
+
+
 
 
 
