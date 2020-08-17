@@ -186,6 +186,46 @@ void draw(){
   ______
   
   
+#### recMode()
+Essa função funciona de forma similar ao ```ellipseMode()```. Tendo como parâmetros:
+- ***CORNER  e CORNERS:***  Pegam o terceiro e quarto parâmetros do ```rect()``` para indicar o canto oposto ao cantor principal, ou seja, o oposto ao que fica situado no canto superior esquerdo.
+- ***CENTER:*** Este parâmetro pega o primeiro e segundo parâmetro de ```rect()``` para indicar o centro do retângulo e usa o terceiro e quarto para indicar a largura e a altura.
+
+***Exemplo:***
+```java
+void setup(){
+  size(200, 200);
+
+}
+
+void draw(){
+  noStroke();
+  rectMode(CORNER);
+  fill(126);
+  rect(40, 40, 100, 100);
+  rectMode(CENTER);
+  fill(255);
+  rect(40, 40, 100, 100);
+  rectMode(CORNERS);
+  fill(0);
+  rect(40, 40, 100, 100); 
+}
+```
+
+***Tela:***
+
+![recMode](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/recMode/recMode.png)
+
+
+______
+
+
+:HOME:[House](https://github.com/Evaldo-comp/Processing)
+
+
+
+  
+  
 
 
 
