@@ -124,7 +124,7 @@ void draw(){
 ![Ellipse](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/ellipse/ellipse.png)
 
 #### Ordem de apresetação
-A ordem na qual as formas são apresentadas depende de quem é desenhada primeiro no código, sequencialmente a forma desenhada abaixo, ficará por trás da forma desenhada acima no código, ou seja, a primeira imagem a ser declarada ficará a frente das outras quando for mostrada na tela. confuso? Não é pra ser, eu que devo ter me expressado mal :smile:
+A ordem na qual as formas são apresentadas depende de quem é desenhada primeiro no código, a forma que for declarada primeiro ficará abaixo das que forem declaradas na sequência, ou seja abaixo dela no código,  a primeira imagem a ser declarada ficará por trás das outras quando for mostrada na tela. Confuso? Não é pra ser, eu que devo ter me expressado mal :smile:
 
 ***Código***
 ```Java
