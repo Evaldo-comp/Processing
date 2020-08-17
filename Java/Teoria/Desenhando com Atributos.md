@@ -147,6 +147,46 @@ void draw(){
   
   
   ______
+  
+  
+  
+#### ellipseMode()
+Como vimos anteriormente para desenhar uma elipse precisamos fornecer quatro parâmetros, os dois primeiros são referentes às coordenadas x e y, e os dois últimos são referentes a altura e largura da forma. Quando utilizamos o ```ellipseMode()```  nós alteramos a referência dos dois primeiros parâmetros dependendo do parâmetro que o ```ellipseMode()``` irá receber, cada parâmetro do ```ellipseMode()``` age de forma diferente sobre os parâmetros do ```ellipse()```.
+
+- ***RADIUS:*** - Pega o primeiro e o segundo parâmetro do ```ellipse()``` para indicar o centro , o terceiro para setar o meio da largura e o quarto para setar o meio da altura.
+- ***CORNER:*** -  Faz com que a ```ellipse()``` se comporte de forma semelhante ao retângulo, pega os dois primeiros parâmetros para posicionar no canto superior esquerdo do retângulo que circunscreve a ellipse, o terceiro e quarto servem para indicar normalmente a largura e altura.
+- ***CORNERS:*** - Funciona de forma semelhante ao ```CORNER```, mas ele pega o terceiro e quarto parâmetro para setar o canto inferior esquerdo do retângulo.
+
+***Exemplo:***
+```java
+void setup(){
+  size(200, 200);
+
+}
+
+void draw(){
+  smooth();
+  noStroke();
+  ellipseMode(RADIUS);
+  fill(126);
+  ellipse(50, 50, 100, 100);
+  fill(255);
+  ellipseMode(CORNER);
+  ellipse(50, 50, 100, 100);
+  fill(0);
+  ellipseMode(CORNERS);
+  ellipse(50, 50, 100, 100);
+  }
+  ```
+  
+  ***Tela:***
+  
+  ![ellipseMode](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/ellipseMode/ellipseMode.png)
+  
+  ______
+  
+  
+
 
 
   
