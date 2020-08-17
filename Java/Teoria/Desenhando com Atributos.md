@@ -85,7 +85,7 @@ ______
 
 
 #### strokeCap():
-Recebe como parâmetro uma das três constantes(ROUND, SQUARE ou PROJECTO). Esses atributos alteram a forma das pontas das linhas.
+Recebe como parâmetro uma das três constantes(*ROUND, SQUARE ou PROJECT*). Esses atributos alteram a forma das pontas das linhas.
 - ***ROUND:*** para pontas redondas
 - ***SQUARE:***  para pontas quadradas
 - ***PROJECT:*** é uma soma das duas anteriores.
@@ -113,6 +113,42 @@ void draw(){
   ![CAP](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/strokeCap/strokeCAP.png)
   
   ______
+  
+  
+#### strokeJoin()
+Esse parâmetro determina como as bordas se conectam ao redor da forma. Essa função pode receber três parâmetros.
+
+- ***BEVEL:*** -  Cantos quadrados
+- ***MITER:*** -   Une linhas com cantos esse é o default 
+- ***ROUND:*** - Cria um curva na conexão
+
+***Exemplo:***
+```java
+void setup(){
+  size(200, 200);
+
+}
+
+void draw(){
+  smooth();
+  strokeWeight(12);
+  strokeJoin(BEVEL);
+  rect(30, 33, 30, 66);
+  strokeJoin(MITER);
+  rect(90, 33, 30, 66);
+  strokeJoin(ROUND);
+  rect(150, 33, 30, 66);
+  }
+  ```
+  
+  ***Tela:***
+  
+  ![Join](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/strokeJoin/strokeJoin.png)
+  
+  
+  ______
+
+
   
   
 
