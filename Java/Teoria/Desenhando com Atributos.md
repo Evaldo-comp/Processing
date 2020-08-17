@@ -30,3 +30,36 @@ void draw(){
 
 ![preenchimento](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/preenchimento/preenchimento.png)
 
+______
+
+
+#### stroke()
+Essa função define a cor da borda da forma, caso não seja passado nenhum valor como parâmetro a cor padrão setada pelo processing será preta, e se voê não quizer que forma não tenha borda basta chmar a função ```noStroke()```.
+
+***Exemplo.***
+```java
+void setup(){
+  size(200, 200);
+}
+
+void draw(){
+  background(0); // Fundo preto
+  fill(61, 242, 34); // Preenchimento da cor verde
+  stroke(242, 46, 46); //Borda da cor vemelha
+  rect(40, 40, 100, 100);
+ }
+```
+
+
+
+***Tela***
+
+![Borda](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/intro/borda_stroke/rec_bord.png)
+
+
+______
+
+
+
+
+
