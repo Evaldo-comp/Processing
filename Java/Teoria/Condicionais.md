@@ -2,20 +2,24 @@
 As estruturas condicionais fazem uso de operadores relacionais e lógicos para retornar true ou False, essa estrutura controla o fluxo do 
 programa ajudando a fazer decisões.
 
-- Operadores Relacionais
-  - ->  Maior que
-  - >= Maior ou igual a 
-  - < Menor que
-  - <= Menor ou igual a
-  - == igual
-  - != Diferente
-  
-- Operadores Lógicos
+***Operadores Relacionais***
+   
+   ```
+   ->  Maior que
+   >= Maior ou igual a 
+   < Menor que
+   <= Menor ou igual a
+   == igual
+   != Diferente
+  ```
+***Operadores Lógicos***
+```
   - || ou
   - && And
   - ! Not
-  
+  ```
   ***Estrutura de uma Condicional***
+  
   ```if (teste){
     instrução
 }
@@ -41,6 +45,7 @@ void draw(){
   ```
   
   ***Tela***
+  
   ![Condicioanl](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Condicional/cond.gif)
   
   
