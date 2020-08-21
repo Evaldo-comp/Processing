@@ -3,14 +3,11 @@ void setup(){
 }
 
 void draw(){
+  background(0); // Fundo preto
+  fill(61, 242, 34); // Preenchimento da cor verde
+  stroke(242, 46, 46); //Borda da cor vemelha
+  rect(40, 40, 100, 100);
+  save("rec.jpg");
  
-  rect(10, 10, 50, 50);
-  fill(204, 123, 100); // preenchimento da forma desenhada abaixo
-  rect(20, 20, 50, 50);
-  fill(153, 233, 123, 100); // preenchimento da forma desenhada abaixo
-  rect(30, 30, 50, 50);
-  fill(102); // preenchimento da forma desenhada abaixo
-  rect(40, 40, 50, 50);
  
-   
 }
