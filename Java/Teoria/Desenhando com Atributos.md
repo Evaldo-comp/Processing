@@ -222,7 +222,7 @@ ______
 
 #### Vétices:
 
- As formas primitivas aprendidas anteriormente oferecem grandes possibilidades, mas futuramente você pode ser desafiado a desenhar formas mais complexas, para o isso podemos utilizar outras opções fornecidas pelo processing como vertex, que consiste na posição definida pela coordenada de x e pela coordenada de y. Cada par de coordenada corresponde a uma “curva” da figura.<>/br>
+ As formas primitivas aprendidas anteriormente oferecem grandes possibilidades, mas futuramente você pode ser desafiado a desenhar formas mais complexas, para o isso podemos utilizar outras opções fornecidas pelo processing como vertex, que consiste na posição definida pela coordenada de x e pela coordenada de y. Cada par de coordenada corresponde a uma “curva” da figura.</br>
 Para desenhar uma forma utilizando ```vertex()```, primeiramente devemos iniciar com  a função ```beginShape()``` e finalizá-la com a função ```endShape()```, a função ```vertex()``` vem  no meio das duas. As funções ```beginShape()```  e ```endShape()``` devem sempre vir em pares. A função ```vertex()``` necessita de dois parâmetros , as coordenadas de x e y respectivamente: ```vertex(x, y)```.
 
 Por definição, todas as formas criadas com ```vertex()``` são preenchidas com a cor branca e todos os pontos são interligados por uma linha preta com exceção dos do primeiro e do último, para fechar uma forma com ```vertex()``` basta colocar a constante *CLOSE* como parâmetro da função ```endShape()```.
