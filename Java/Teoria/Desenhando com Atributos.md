@@ -239,7 +239,7 @@ void draw(){
 }
 ```
 ##### Na Tela:
-[!Vertex](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Vertex/vertex_line/vertex.png)
+![Vertex](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Vertex/vertex_line/vertex.png)
 
 
 
