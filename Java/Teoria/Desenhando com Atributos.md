@@ -222,7 +222,11 @@ ______
 
 #### Vétices:
 
- As formas primitivas aprendidas anteriormente oferecem grandes possibilidades, mas futuramente você pode ser desafiado a desenhar formas mais complexas, para o isso podemos utilizar outras opções fornecidas pelo processing como vertex, que consiste na posição definida pela coordenada de x e pela coordenada de y. Cada par de coordenada corresponde a uma “curva” da figura.
+ As formas primitivas aprendidas anteriormente oferecem grandes possibilidades, mas futuramente você pode ser desafiado a desenhar formas mais complexas, para o isso podemos utilizar outras opções fornecidas pelo processing como vertex, que consiste na posição definida pela coordenada de x e pela coordenada de y. Cada par de coordenada corresponde a uma “curva” da figura.<>/br>
+Para desenhar uma forma utilizando ```vertex()```, primeiramente devemos iniciar com  a função ```beginShape()``` e finalizá-la com a função ```endShape()```, a função ```vertex()``` vem  no meio das duas. As funções ```beginShape()```  e ```endShape()``` devem sempre vir em pares. A função ```vertex()``` necessita de dois parâmetros , as coordenadas de x e y respectivamente: ```vertex(x, y)```.
+
+Por definição, todas as formas criadas com ```vertex()``` são preenchidas com a cor branca e todos os pontos são interligados por uma linha preta com exceção dos do primeiro e do último, para fechar uma forma com ```vertex()``` basta colocar a constante *CLOSE* como parâmetro da função ```endShape()```.
+
  
  #### Exemplo:
  ```java
@@ -240,6 +244,100 @@ void draw(){
 ```
 ##### Na Tela:
 ![Vertex](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Vertex/vertex_line/vertex.png)
+
+##### Exemplo de Triângulo com vertex():
+```java
+void setup(){
+  size(200, 200);
+}
+
+void draw(){
+  beginShape();
+  vertex(30, 180); // vértice 1 do triângulo
+  vertex(180, 30);  // vértice 2 do triângulo
+  vertex(30, 30);  // vértice 3 do triângulo
+  endShape();
+}
+```
+##### Na Tela:
+![vertexTrianglo](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Vertex/vertex_triagle/triagulo.png)
+
+______
+
+
+##### Exemplo de Quadrilátero com vertex():
+```java
+void setup(){
+  size(200, 200);
+}
+
+void draw(){
+  beginShape();
+  vertex(30, 180);
+  vertex(180, 30);
+  vertex(30, 30);
+  vertex(30, 30);
+  vertex(20, 100);
+  endShape(); 
+}
+
+```
+##### Na Tela:
+![vertexQuadrilátero](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Vertex/vertex_quad/quadrilatero.png)
+
+
+_____
+
+#### CURVAS
+
+A função ```vertex()``` funciona perfeitamente bem para criar formas com linhas retas, mas se você quiser trabalhar com curvas, deverá utilizar as funções ```curveVertex()``` e ```bezierVertex()```, elas conectam pontos com curvas. Estas funções podem funcionar entre ```beginShape()``` e ```endShape()``` apenas quando ```beginShape()``` não tem parâmetros.
+
+#### curveVertex(): 
+Essa função é utilizada para indicar uma seŕie de pontos que se conectam com uma curva ela tem dois parâmetros que indicam o ponto da coordenada x e o ponto da coordenada y do vértice.```curveVertex(x, y)```.
+
+O primeiro e último ```curveVertex()``` servem para guiar o início e fim da curva, são pontos de controle, sendo assim são necessárias pelos menos quatro ocorrências dessa função para desenhar uma curva entre o segundo e terceiro.
+
+##### Exemplo:
+```java
+
+void setup(){
+  size(200, 200);
+}
+
+void draw(){
+  smooth();
+  noFill();
+  beginShape();
+  curveVertex(100, 180); // pontos de controle inicial
+  curveVertex(50, 140);
+  curveVertex(130, 130);
+  curveVertex(140, 180);
+  curveVertex(20, 80); // pontos de controle final
+  endShape();
+ 
+}
+```
+
+#### bezierVertex()
+
+Essa função deve ser usada com a função ```vertex()```, ainda que entre as funções ```beginshape()``` e ```endShape()```. A linha é desenhada entre o ponto definido pelo ```vertex()``` e o ponto definido pelo x e y colocados como parâmetros de ```bezierVertex()```. Os primeiros quatro parâmetros da função controlam os pontos que definem a forma da curva.
+
+##### Exemplo:
+```java
+void setup(){
+  size(200, 200);
+}
+
+void draw(){
+ 
+  noFill();
+  beginShape();
+  vertex(132, 120);
+  bezierVertex(80, 5, 40, 75, 30, 75);
+  bezierVertex(10, 5, 40, 5, 30, 75);
+  endShape();
+}
+```
 
 
 
