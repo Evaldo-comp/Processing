@@ -2,10 +2,13 @@
 
 No Procesing as cores são definidas através dos Parâmetros inseridos em funções como  ```background( )```, ```fill( )```, e ```stroke( )```.
 ```java
-background(valor RGB1, valor RGB2, valor RGB2)
-```.
 
-Por definição:
+background(valor RGB1, valor RGB2, valor RGB2)
+
+```
+
+##### Por definição:
+
 - <b>Valor do parâmetro 1:</b> componente de cor vermelha
 - <b>Valor do parâmetro 2:</b> Componente verde
 - <b>Valor do parâmetro 3:</b> componente azul
