@@ -7,11 +7,12 @@ background(valor RGB1, valor RGB2, valor RGB2)
 
 ```
 
-##### Por definição:
+<b>Por definição:</b>
 
 - <b>Valor do parâmetro 1:</b> componente de cor vermelha
 - <b>Valor do parâmetro 2:</b> Componente verde
 - <b>Valor do parâmetro 3:</b> componente azul
+
 Um quarto valor define transparência, mas não é usado em todas as funções, algumas que aceitam o quarto parâmetro é ```fill()``` e ```stroke()```.
 
 ##### Exemplo:
