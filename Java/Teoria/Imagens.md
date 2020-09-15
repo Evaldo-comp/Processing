@@ -40,17 +40,15 @@ void draw(){
     PImage img = loadImage("ada.jpg");
     for (int i = 0; i<400; i++){
         image(img, random(i), random(i), 60, 60);
-        
+         }
+     }
  }
- 
-}
-}
 ```
 ##### Tela:
 
 ![img](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Imagens/img01_Ada/img01.png)
 
-#### Image, -  Cor e Transparência:
+#### Imagem -  Cor e Transparência:
 
 Imagens são pintadas com a função ```tint()```, ela é usada da mesma forma que ```fill()``` e ```stroke()```, mas funciona apenas em imagens.
 Todas as imagens desenhadas depois de rodar a função ```tint()```, receberão o efeito de acordo com os parâmetros desta, esses parâmetros não são permanentes, se declararmos a função ```noTint()```, todos os efeitos de colorização serão desabilitados para todas as imagens abaixo dela.
