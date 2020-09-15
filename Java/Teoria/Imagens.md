@@ -18,6 +18,43 @@ Para adicionar uma imagem selecione Scketch no meu e clique em adicionar ficheir
 
 ##### Carregando uma imagem:
 
+Antes de mostrar uma imagem, é necessaŕio carregá-la, para isso usamos a função ```loadImage("nome_da_imagens.png")```. Certifique-se de colocar o tipo do formato da imagem junto com o nome  tudo isso entre aspas. (“image 01.png”) como argumento da função. Para que a imagem seja carregada ela deve estar na pasta de dados do programa.
+
+##### Desenhando a imagem:
+
+Para "invocarmos" a imagem na tela, devemos utilizar a função ```image(name, x, y, width, height)```. Os argumentos suportados por essa função correspondem respectivamente:
+
+ - name = Nome da Imagem
+ - x = Posição na imagem no eixo x
+ - y = Posição da iamgem no eixo y
+ - width = Largura da imagem em pixels
+ - height = Largura da imagem em pixels
+ 
+##### Exemplo:
+```java
+void setup(){
+  size(400, 400);
+}
+
+void draw(){
+    PImage img = loadImage("ada.jpg");
+    for (int i = 0; i<400; i++){
+        image(img, random(i), random(i), 60, 60);
+        
+ }
+ 
+}
+}
+```
+##### Tela:
+
+![img](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Imagens/img01_Ada/img01.png)
+
+
+
+
+
+
 
 
 
