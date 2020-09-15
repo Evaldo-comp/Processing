@@ -28,7 +28,7 @@ Para "invocarmos" a imagem na tela, devemos utilizar a função ```image(name, x
  - x = Posição na imagem no eixo x
  - y = Posição da iamgem no eixo y
  - width = Largura da imagem em pixels
- - height = Largura da imagem em pixels
+ - height = Altura da imagem em pixels
  
 ##### Exemplo:
 ```java
