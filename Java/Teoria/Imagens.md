@@ -48,7 +48,7 @@ void draw(){
 ```
 ##### Tela:
 
-![img](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Imagens/img01_Ada/adaexemple.png)
+![img](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Imagens/img01_Ada/img01.png)
 
 
 
