@@ -195,10 +195,10 @@ Uma fonte no formato <b>VLW</b> usado no Processing guarda cada letra do alfabet
 
 <b>Parâmetros da função</b> ```text()```:<br/>
 - ```text(data, x, y)```: data: é um parâmetros que aceita dados do tipo String, char, int ou float<br/> 
-- ```text(stringdata, x, y, width, height):<br/>
- - Stringdata: Aceita apenas Strings. <br/>
- - x e y: indicam a posição do canto inferior esquerdo.<br/>
- - width e height (opcionais): Indicam os limites<br/>
+- ```text(stringdata, x, y, width, height)```:<br/>
+  - Stringdata: Aceita apenas Strings. <br/>
+  - x e y: indicam a posição do canto inferior esquerdo.<br/>
+  - width e height (opcionais): Indicam os limites<br/>
 
 OBS: A função text pode receber alterações advindas de funções utilizadas em formas como ```fill()```, com exceção da função ```stroke()```.
 
