@@ -182,8 +182,59 @@ println(s1.equals(s3));
 // Prints "true"
 // Prints "false"
 ```
+#### Tipografia: Display:<br/>
 
+Para uma letra ser mostrada na tela com Processing, uma fonte primeiramente deve ser convertida para o formato  <b>VLW</b>. Para converter uma fonte, selecione a opção “ Criar Fonte” no menu de ferramentas do Processing. uma janela irá abrir mostrando o nome das fontes instaladas no seu computador que podem ser convertidas, selecione uma fonte da lista e clique em “OK”. A fonte será gerada e copiada para dentro da pasta de dados da sketch atual.<br/>
 
+Uma fonte no formato <b>VLW</b> usado no Processing guarda cada letra do alfabeto como uma imagem. Depois da fonte ser criada, o processo de desenho da fonte na tela, leva alguns passos. Antes da fonte ser usada no programa, ela deve ser carregada e setada como a fonte corrente. Para guardar dados do tipo fonte, o Processing usa ```PFont``` que é a decalração para trabalhar com dados do tipo fonte.
+
+<b>Funções para manipular dados do tipo ```PFont```:</b>
+- ```loadFont()``` :  Utilizada para carregar dados do tipo PFont
+- ```textFont()```:  Deve ser utilizada para atribuir a fonte corrente
+- ```text()```:  É utilizada para desenhar os caracteres na tela.
+
+<b>Parâmetros da função</b> ```text()```:<br/>
+- ```text(data, x, y)```: data: é um parâmetros que aceita dados do tipo String, char, int ou float<br/> 
+- ```text(stringdata, x, y, width, height):<br/>
+ - Stringdata: Aceita apenas Strings. <br/>
+ - x e y: indicam a posição do canto inferior esquerdo.<br/>
+ - width e height (opcionais): Indicam os limites<br/>
+
+OBS: A função text pode receber alterações advindas de funções utilizadas em formas como ```fill()```, com exceção da função ```stroke()```.
+
+______
+
+#### Atributos do Texto:
+
+O Processing inclui algumas funções para controlar como o texto é mostrado na tela.</br> 
+- ```textSize()```: Uma função que define as dimensões das letras em unidades de pixels
+- ```textLeading()```: Essa função atribui um valor para especificar os espaços entre as linhas do texto, recebe como atributo essa distância em unidades de pixels.
+- ```textAlign()```: Indica o alinhamento que o texto deve tomar na tela: O parâmetro desta função pode ser *LEFT*, *CENTER* ou  *RIGHT*.
+- ```textWidth()```: Essa função calcula e retorna o pixel de algum caracter ou string. 
+```java
+void setup(){
+  size(400, 400);
+}
+void draw(){
+  background(255);
+PFont fonte; // declação da variável
+fonte = loadFont("Z003-MediumItalic-48.vlw"); // carregando a fonte
+fill(0);
+textFont(fonte);
+text("TREMOR", random(width), random(mouseY)); // Escreve na coordenada 0, 40 
+if (mouseY == width/2)
+      save("text.png");
+
+}
+```
+
+<b>Na Tela</b>
+
+![Texto](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Texto/Texto04/texto04.gif)
+
+______
+
+:house:[HOME]()
 
 
 
