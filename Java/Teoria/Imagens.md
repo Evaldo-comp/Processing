@@ -28,7 +28,7 @@ Para "invocarmos" a imagem na tela, devemos utilizar a função ```image(name, x
  - x = Posição na imagem no eixo x
  - y = Posição da iamgem no eixo y
  - width = Largura da imagem em pixels
- - height = Largura da imagem em pixels
+ - height = Altura da imagem em pixels
  
 ##### Exemplo:
 ```java
@@ -40,15 +40,44 @@ void draw(){
     PImage img = loadImage("ada.jpg");
     for (int i = 0; i<400; i++){
         image(img, random(i), random(i), 60, 60);
-        
+         }
+     }
  }
- 
-}
-}
 ```
 ##### Tela:
 
 ![img](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Imagens/img01_Ada/img01.png)
+
+#### Imagem -  Cor e Transparência:
+
+Imagens são pintadas com a função ```tint()```, ela é usada da mesma forma que ```fill()``` e ```stroke()```, mas funciona apenas em imagens.
+Todas as imagens desenhadas depois de rodar a função ```tint()```, receberão o efeito de acordo com os parâmetros desta, esses parâmetros não são permanentes, se declararmos a função ```noTint()```, todos os efeitos de colorização serão desabilitados para todas as imagens abaixo dela.
+
+##### Exemplo:
+```java
+void setup(){
+  size(400, 400);
+}
+
+void draw(){
+    PImage img = loadImage("ada-lovelace-20825279-1-402.jpg");
+    tint(random(sin(255)), random(255), random(255),random(102));
+    for (int i = 0; i<400; i++){
+        image(img, random(i), random(i), 200, 200);
+        
+ }
+}
+
+```
+
+##### Tela:
+
+![imagem 2](https://github.com/Evaldo-comp/Processing/blob/master/Java/Exemplos/Imagens/img2_Ada/Captura%20de%20tela%20de%202020-09-15%2001-05-45.png)
+
+_____
+
+:house:[HOME](https://github.com/Evaldo-comp/Processing)
+
 
 
 
