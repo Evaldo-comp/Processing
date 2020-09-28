@@ -9,7 +9,7 @@ Processing é uma linguagem baseada em Java, desenvolvida em 2001  no **Institut
   - [Desenhando com Atributos](https://github.com/Evaldo-comp/Processing/blob/master/Java/Teoria/Desenhando%20com%20Atributos.md)
   - [Cores](https://github.com/Evaldo-comp/Processing/blob/master/Java/Teoria/Cores.md)
   - [Imagens](https://github.com/Evaldo-comp/Processing/blob/master/Java/Teoria/Imagens.md)
-  - [Texto](Em andamento)
+  - [Texto](https://github.com/Evaldo-comp/Processing/blob/master/Java/Teoria/Texto.md)
 
 - Estruturas de Controle<br>
   - [Condicionais](https://github.com/Evaldo-comp/Processing/blob/master/Java/Teoria/Condicionais.md)
